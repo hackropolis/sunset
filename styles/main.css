@@ -1,0 +1,12 @@
+body {
+	padding: 4rem;
+	color: var(--text-light);
+	background-color: var(--bg-light);
+}
+
+@media (prefers-color-scheme: dark) {
+	.container {
+		color: var(--text-dark);
+		background-color: var(--bg-dark);
+	}
+}
